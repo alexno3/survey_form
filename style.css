@@ -4,6 +4,7 @@ body {
     background-color: #05c46b;
     font-family: Verdana;
     text-align: center;
+    font-weight: 300;
 }
 
 h1 {
@@ -26,6 +27,13 @@ form {
 .form-control {
     text-align: left;
     margin-bottom: 25px;
+}
+
+/* Styling form-control label */
+
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
 }
 
 /* Styling form-control input ,select, textarea */
