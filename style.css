@@ -1,0 +1,67 @@
+/* Styling the Body element */
+
+body {
+    background-color: #05c46b;
+    font-family: Verdana;
+    text-align: center;
+}
+
+/* Styling the Form */
+
+form {
+    background-color: white;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling form-control class */
+
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+/* Styling form-control input ,select, textarea */
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 4px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+/* Styling form-control Radio button and Checkbox */
+
+.form-control input[type='radio'],
+.form-control input[type= 'checkbox'] {
+    display: inline-block;
+    width: auto;
+}
+
+/* Styling Button */
+
+button {
+    background-color: #05c46b;
+    border: 1px solid #777;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 21px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/* Styling button:hover */
+
+button:hover {
+    background-color: #039b54;
+    transform: scale(1.05);
+    transition: .1s ease-in-out;
+}
